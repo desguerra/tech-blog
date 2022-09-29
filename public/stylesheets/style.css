@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --primary: #EBF1BF;
-    --secondary: #B4C59D;
-    --tertiary: #7E997B;
-    --light-dark: #476C59;
+    --primary: #EEF1D5;
+    --secondary: #B7C5AE;
+    --tertiary: #7F9986;
+    --light-dark: #486C5F;
     --dark: #104037;
     --border-radius: .3rem;
 }
@@ -82,7 +82,7 @@ p {
 }
 
 header {
-    background-color: var(--dark);
+    background-color: var(--light-dark);
     padding: 2% 2%;
 }
 
@@ -123,9 +123,32 @@ nav button:hover {
     font-weight: bold;
 }
 
-footer {
-    text-align: center;
+.post-list {
+    list-style-type: none;
+}
+
+ol li .post {
+    border: solid 3px var(--dark);
+    border-radius: var(--border-radius);
+    margin: 7px 0;
+}
+ol li article .title {
     background-color: var(--dark);
+    color: var(--primary);
+    padding: 7px 15px;
+}
+ol li article .meta {
+    color: var(--secondary);
+    font-size: 85%;
+}
+ol li article .post-content {
+    background-color: var(--primary);
+    padding: 7px 15px;
+}
+
+/* footer {
+    text-align: center;
+    background-color: var(--light-dark);
     color: var(--primary);
     padding: 40px 0;
 }
@@ -138,7 +161,7 @@ footer a:focus {
 
 footer a:hover {
     color: var(--tertiary);
-}
+} */
 
 /* BUTTONS */
 .btn, .btn:active, .btn:focus {

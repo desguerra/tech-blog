@@ -1,1 +1,16 @@
-<div class="container">hello, homepage!!</div>
+<ol class='post-list'>
+    <li>
+        <article class='post'>
+            <div class='title'>
+                <span><strong>{{title}}</strong></span>
+                <span class='meta'>posted by
+                    <strong>{{user.username}}</strong>
+                    on
+                    {{created_at}}</span>
+            </div>
+            <div class='post-content'>
+                {{content}}
+            </div>
+        </article>
+    </li>
+</ol>
