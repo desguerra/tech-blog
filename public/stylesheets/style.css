@@ -64,7 +64,7 @@ a:focus,
 nav button,
 nav button:active,
 nav button:focus {
-    color: var(--tertiary);
+    color: var(--primary);
     text-decoration: wavy underline;
     -webkit-text-decoration: wavy underline;
     font-weight: bold;
@@ -72,7 +72,7 @@ nav button:focus {
 
 a:hover,
 nav button {
-    color: var(--primary);
+    color: var(--tertiary);
     text-decoration: none;
     font-weight: bold;
 }

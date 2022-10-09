@@ -14,7 +14,6 @@ router.get('/', (req, res) => {
             'created_at',
         ],
         include: [
-            // include the Comment model here:
             {
                 model: Comment,
                 attributes: [
@@ -88,7 +87,6 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', withAuth, (req, res) => {
-    // expects {title: 'Taskmaster goes public!', user_id: 1}
     Post.create({
         title: req.body.title,
         content: req.body.content,
