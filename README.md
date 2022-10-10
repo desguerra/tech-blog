@@ -4,7 +4,7 @@
 
 This project is a **full-stack blog site** where developers can publish their blog posts and comment on other developers' post. This site was built completely from scratch and is deployed on Heroku. This application follows the **Model-View-Controller (MVC)** architectural structure, utilizes **Handlebar.js** as the template engine, **Sequelize** as the ORM, and the **express-session** npm package for authentication.
 
-[Check out the deployed application here!]()
+[Check out the deployed application here!](https://afternoon-chamber-17636.herokuapp.com/)
 
 ## Table of Contents
 
