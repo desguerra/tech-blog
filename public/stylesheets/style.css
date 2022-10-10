@@ -38,8 +38,8 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    font-family: 'Oxygen', sans-serif;
-    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    margin: 5px 0;
     color: var(--dark);
     line-height: 1.25;
 }
@@ -121,6 +121,14 @@ nav button:hover {
     text-decoration: wavy underline;
     -webkit-text-decoration: wavy underline;
     font-weight: bold;
+}
+
+.edit-post-form-article a {
+    color: var(--secondary);
+}
+
+textarea {
+    margin-bottom: 10px;
 }
 
 .post-list {

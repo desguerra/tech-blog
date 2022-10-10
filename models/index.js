@@ -10,6 +10,7 @@ User.hasMany(Post, {
 // create reverse association, a post can belong to ONE user
 Post.belongsTo(User, {
     foreignKey: 'user_id',
+    onDelete: 'CASCADE',
 });
 
 Comment.belongsTo(User, {
