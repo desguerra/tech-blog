@@ -70,8 +70,7 @@ nav button:focus {
     font-weight: bold;
 }
 
-a:hover,
-nav button {
+a:hover {
     color: var(--tertiary);
     text-decoration: none;
     font-weight: bold;
@@ -99,8 +98,8 @@ header h1 {
     width: auto;
 }
 
-nav a, nav button {
-    padding-bottom: 20px;
+nav {
+    margin-bottom: 20px;
 }
 
 nav a,
@@ -111,7 +110,7 @@ nav button:active,
 nav button:focus {
     color: var(--primary);
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 0 15px;
     font-weight: bold;
 }
 
@@ -129,6 +128,17 @@ nav button:hover {
 
 textarea {
     margin-bottom: 10px;
+}
+
+.login-or-signup {
+    padding: 10px 0;
+}
+.login-or-signup a {
+    color: var(--tertiary);
+    font-weight: bold;
+}
+.login-or-signup a:hover {
+    color: var(--secondary);
 }
 
 .post-list {
@@ -212,6 +222,7 @@ footer a:hover {
     box-shadow: 4px 4px var(--dark);
     transform: translate(-1px, -1px);
     font-weight: normal;
+    margin: 7px 0;
 }
   
 .btn:hover {
