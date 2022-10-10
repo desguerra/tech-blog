@@ -129,21 +129,47 @@ nav button:hover {
     margin-bottom: 10px;
 }
 
-ol li .post {
+/* POSTS */
+.post {
     border: solid 3px var(--dark);
     border-radius: var(--border-radius);
     margin: 10px 0;
 }
-ol li article .title {
+.title {
     background-color: var(--dark);
     color: var(--primary);
     padding: 10px 15px;
 }
-ol li article .meta {
+.meta {
     color: var(--secondary);
     font-size: 85%;
 }
-ol li article .post-content {
+.post-content {
+    background-color: var(--primary);
+    padding: 10px 15px;
+}
+
+/* COMMENTS */
+.comment-form {
+    padding: 10px 0;
+}
+.comments-num {
+    padding: 5px 0;
+}
+.comments {
+    padding: 10px 0;
+}
+.comment {
+    border: solid 3px var(--secondary);
+    border-radius: var(--border-radius);
+    margin: 10px 0;
+}
+.comment-title {
+    background-color: var(--secondary);
+    color: var(--dark);
+    padding: 10px 15px;
+}
+.comment-text {
     background-color: var(--primary);
     padding: 10px 15px;
 }
